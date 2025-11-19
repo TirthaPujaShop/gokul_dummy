@@ -13,10 +13,9 @@ class TipCalculatorApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Tip Calculator',
       theme: ThemeData(
-        useMaterial3: true,
+        useMaterial3: false,
         brightness: Brightness.dark,
         colorSchemeSeed: const Color(0xFF00D4FF),
-        fontFamily: 'SF Pro',
       ),
       home: const TipCalculatorPage(),
     );
